@@ -25,8 +25,8 @@ ll func(int ind1, int ind2, vector<vector<char>>& mat, int n,vector<vector<int>>
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    ifstream cin("input.txt");
-    ofstream cout("../output/output.txt"); 
+    ifstream cin("input1.txt");
+    ofstream cout("../output/output1.txt"); 
     ll t;
     cin >> t;
     while(t--){
