@@ -1,5 +1,7 @@
 generateSubsequences function:
+
 Input: String word, integer maxLength, unordered set subsequences
+
 Iterate len from 1 to maxLength:
 Iterate start from 0 to n - len:
 Create an empty string subsequence.
@@ -8,7 +10,10 @@ Iterate i from start to n - 1 or until count reaches len:
 Append word[i] to subsequence.
 Increment count.
 Insert subsequence into subsequences.
+
+
 assign function:
+
 Input: Vector of strings words
 Initialize an unordered map wtsf to store word-to-shortform mappings.
 Initialize an unordered set usf to keep track of used shortforms.
